@@ -1,0 +1,17 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+
+# 本机运行数据与备份（保留 data/.gitkeep 以维持目录结构）
+data/*.db
+backups/
+runtime/
+
+# 交付包与开发过程产物（源码与文档直接入库，无需重复打包）
+dist/
+artifacts/
+
+# 工作区本地数据
+.workbuddy/
